@@ -3,48 +3,121 @@
   <head>
     <title>Adrian L</title>
     <meta charset="utf-8">
-    <meta author="Adrian Loredo"
-    <meta content="Social Media Links"
+    <meta author="Adrian Loredo">
+    <meta content="Social Media Links">
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #007bce;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+      }
+
+      .thumbnail {
+        width: 48px;
+        height: 48px;
+        object-fit: cover;
+      }
+
+      .name {
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner {
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .social-icons a {
+        color: #fffffe;
+        text-decoration: none;
+      }
+
+      .link {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+    </style>
   </head>
   <body>
-    <div class="banner">
-      <img src="/thumbnails/snow_storm_portrait.jpg" alt="Self Portrait">
-    </div>
+    <div class="items">
+      <div class="banner">
+        <img src="/thumbnails/snow_storm_portrait.jpg" alt="Self Portrait" class="banner-image">
+      </div>
 
-    <div class="name">
-      Adrian Loredo
-    </div>
+      <div class="name">
+        Adrian Loredo
+      </div>
 
-    <div class="social-icons">
-      <a href="https://github.com/aloredo312" target="_blank">
-        GitHub
-      </a>
+      <div class="social-icons">
+        <a href="https://github.com/aloredo312" target="_blank">
+          GitHub
+        </a>
 
-      <a href="https://www.linkedin.com/in/adrian-loredo-aa53ba21b/" target="_blank">
-        LinkedIn
-      </a>
+        <a href="https://www.linkedin.com/in/adrian-loredo-aa53ba21b/" target="_blank">
+          LinkedIn
+        </a>
 
-      <a href="https://www.instagram.com/arion312/" target="_blank">
-        Instagram
-      </a>
+        <a href="https://www.instagram.com/arion312/" target="_blank">
+          Instagram
+        </a>
 
-      <a href="https://twitter.com/ariono6" target="_blank">
-        X Formerly known as Twitter
-      </a>
+        <a href="https://twitter.com/ariono6" target="_blank">
+          X (Twitter)
+        </a>
+      </div>
 
-      <a href="https://www.youtube.com/channel/UCfgGcjR3-4JSQsVitToF0uQ" target="_blank">
-        YouTube
-      </a>
+      <div class="link">
+        <img src="/thumbnails/Portfolio.jpg" class="thumbnail">
 
-      <a href="https://www.youtube.com/channel/UCVga4Vt9KuBPJP9OvD_MSkw" target="_blank">
-        Unversed Arts YouTube Channel
-      </a>
-    </div>
+        <a target="_blank" href="https://www.adrian-loredo.com">Photography Portfolio</a>
+      </div>
 
-    <div class="link">
-      <img srcs="/thumbnails/Portfolio.jpg">
+      <div class="link">
 
-      <a target="_blank" href="https://www.adrian-loredo.com">Photography Portfolio</a>
+        <img src="/thumbnails/self_portrait.jpg" class="thumbnail">
+
+        <a target="_blank" href="https://www.youtube.com/channel/UCfgGcjR3-4JSQsVitToF0uQ">Personal YouTube Channel</a>
+      </div>
+
+      <div class="link">
+
+        <img src="/thumbnails/logo.jpg" class="thumbnail">
+
+        <a target="_blank" href="https://www.youtube.com/channel/UCVga4Vt9KuBPJP9OvD_MSkw">Unversed Arts YouTube Channel</a>
+      </div>
     </div>
   </body>
 </html>
